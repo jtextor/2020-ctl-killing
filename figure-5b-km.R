@@ -25,7 +25,7 @@ plt <- function(d){
 
 
 
-pdf("plots/km.pdf", width=4, height=3 )
+pdf("plots/figure-5b-km.pdf", width=4, height=3 )
 par(mar=c(4,4,.2,.2),font.main=1, cex.main=1, bty='l')
 plt(d)
 dev.off()

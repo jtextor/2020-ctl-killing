@@ -69,7 +69,7 @@ ml <- mle( nLL, start=list( t12.minutes=4 ),
 	method = "L-BFGS-B", lower=c(0) )
 
 # Plot the ML procedure
-pdf("plots/estimate-repair-time.pdf", width=4, height=4)
+pdf("plots/figure-5d-estimate-repair-time.pdf", width=4, height=4)
 par(font.main=1, cex.main=1)
 x <- seq( 1, 240, by=5 )
 y <- sapply( x, nLL )
@@ -81,6 +81,8 @@ ci <- confint(ml)
 segments( ci[1], ml@min, ci[2], ml@min, col=2, lwd=2 )
 points( ml@coef, ml@min, pch=19, col=2 )
 dev.off()
+
+print( ml )
 
 # Compare fit of damage decay model to simple "hit counting" model
 

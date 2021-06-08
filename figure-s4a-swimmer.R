@@ -28,7 +28,7 @@ plt <- function(d){
 			bg=1+col.ctl[w.ca.hits] )
 }
 
-pdf("plots/swimmer.pdf", width=9, height=9 )
+pdf("plots/figure-s4a-swimmer.pdf", width=9, height=9 )
 par(mar=c(4,0.2,0.2,0.2),font.main=1, cex.main=1)
 plt(d)
 dev.off()
