@@ -6,12 +6,12 @@ The person responsible for these analyses was Johannes Textor (current contact i
 
 Specifically, this repository includes code for the following figure panels:
 
- * Figure 5b,c(TODO),d
- * Supplementary Figure 4a,b(TODO)
+ * Figure 5b,c,d
+ * Supplementary Figure 4a,b
 
 If you are looking for data or code underlying the other figures and panels, please contact Bettina Weigelin. 
 
-There are also two scripts, prefixed with "extra", that run analyses that were requested by the reviewers and included in the rebuttal letter, but not in the final paper. We provide these for transparency only. 
+There are also two scripts, prefixed with "extra", that run analyses that were requested by the reviewers and included in the rebuttal letter, but not in the final paper. We provide these for transparency only. They are not included in the Makefile so they are not run by default. 
 
 # Running the code
 
