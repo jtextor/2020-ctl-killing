@@ -33,4 +33,4 @@ rownames( x ) <- paste0( seq_len(nrow(x))-1, " CTL" )
 x <- t(x)
 
 writexl::write_xlsx( cbind( `time before death`=rownames(x), 
-	as.data.frame(x)), "data/contact-profile.xlsx" )
+	as.data.frame(x)), "results/contact-profile.xlsx" )
